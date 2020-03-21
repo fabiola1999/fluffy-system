@@ -36,7 +36,7 @@
                         <span class="font-weight-bold mr-1"><i class="fas fa-home mr-1"></i>Home</span> / My Task
                     </div>
 
-                <div class="step1 row mx-4">
+                <div class="step1 row mx-4 shadow">
                     <div class="col-md-12 bg-light mr-4 ">
                     <div class="d-flex justify-content-between m-2 ">
                             <h3 class="m-4" style="color:#DF0873;  font-size:15px;  font-weight: bold;"><i class="fas fa-tasks m-2" style="color:#DF0873 !important; font-size:20px;"></i>My Tasks</h3>
@@ -90,10 +90,24 @@
                             <td>2020-03-12</td>
                             <td>urgent</td>
                             <td>2020-03-12</td>
-                            <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#EC0544; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp;  Pending</button></a>
+                            <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#F5A10E; border:0; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp;  Pending</button></a>
                             <a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
                                 <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
                             </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>2020-02-28</td>
+                                <td>CEO</td>
+                                <td>2020-03-12</td>
+                                <td>urgent</td>
+                                <td>2020-03-12</td>
+                                <td>urgent</td>
+                                <td>2020-03-12</td>
+                                <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#EC0544; border:0; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-times"></i>&nbsp;  Cancelled</button></a>
+                                <a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
+                                    <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
+                                </td>
                             </tr>
                             <tr>
                             <th scope="row">1</th>

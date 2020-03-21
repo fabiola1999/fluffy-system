@@ -49,12 +49,12 @@
                 <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="#multiCollapseExample1"><i class="fas fa-fw mr-2 fa-calendar"></i>My Calendar<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
-                        <ul class=" navbar-nav d-flex  justify-content-end flex-column">
-                            <li class="nav-item active"> add Calendar</li>
-                            <li class="nav-item "> List Calendar</li>
-                            <li class="nav-item "> Edit Calendar</li>
-                        </ul>
+                        <div class="collapse multi-collapse pl-5" id="multiCollapseExample1" style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class=" navbar-nav d-flex  justify-content-end flex-column">
+                            <a href="#" class="nav-item sub-active"> add Calendar</a>
+                            <a  href="#" class="nav-item "> List Calendar</a>
+                            <a href="#" class="nav-item "> Edit Calendar</a>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -83,22 +83,31 @@
                 </div>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                <ul class=" navbar-nav d-flex  justify-content-end flex-column">
-                                    <li class="nav-item active"> add Tasks</li>
-                                    <li class="nav-item "> List Tasks</li>
-                                    <li class="nav-item "> Edit Tasks</li>
-                                </ul>
+                            <div class="collapse multi-collapse pl-5" id="multiCollapseExample2" style="background-color: rgba(0, 0, 0, 0.2);">
+                                <div class=" navbar-nav d-flex  justify-content-end flex-column">
+                                    <a href="#" class="nav-item active"> add Tasks</a>
+                                    <a href="#" class="nav-item "> List Tasks</a>
+                                    <a href="#" class="nav-item "> Edit Tasks</a>
+                                </div>
                             </div>
                         </div>
                     </div>    
             </li>
-
-
-            <li class="nav-item">
-                <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseExample3" href="#multiCollapseExample3">
-                    <i class="fas fa-fw mr-2 fa-cog"></i> Settings<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
+            <li class="nav-item"> 
+                <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapsesettings" href="#multiCollapsesettings"> <i class="fas fa-fw mr-2 fa-cog"></i> Settings<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse pl-5" id="multiCollapsesettings" style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class=" navbar-nav d-flex  justify-content-end flex-column">
+                            <a href="#" class="nav-item sub-active"> profile settings</a>
+                            <a  href="#" class="nav-item "> language settings</a>
+                            <a href="#" class="nav-item "> security settings</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </li>
+
 
         </ul>
 

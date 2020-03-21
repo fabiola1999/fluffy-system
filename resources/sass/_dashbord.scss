@@ -144,7 +144,7 @@
     font-family:montserrat !important ;
     font-size: 12px !important;       
 }
-.nav-item .active {
+.nav-item.active {
     background-color:rgba(0, 0, 0, 0.2);
     font-weight: 700;
     border-left: 8px solid rgba(255, 255, 255, 0.2);
@@ -153,6 +153,16 @@
     display: flex;
     align-items: center;
 }
+
+.nav-item.sub-active {
+    background-color:rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    padding-left: 1rem !important;
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+}
+
 // .search {
 //     background-color: rgba(255, 255, 255, 0.2) !important; /* White with 50% alpha */
 //   }

@@ -39,7 +39,7 @@
                         <span class="font-weight-bold mr-1"><i class="fas fa-home mr-1"></i>Home</span> / Messages
                     </div>
 
-                <div class="step1 row mx-4 h-100">
+                <div class="step1 row mx-4 h-100 shadow">
                     <div class="col-md-12 bg-light mr-4 p-0">
                     <div class="d-flex justify-content-between m-2 border-bottom px-3 pb-2">
                         <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="fas fa-envelope m-2" style="color:#EC0544;"></i>Messages</h3>

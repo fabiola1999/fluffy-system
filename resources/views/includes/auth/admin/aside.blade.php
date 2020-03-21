@@ -46,12 +46,12 @@
             <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseEmployee" href="#multiCollapseEmployee"><i class="fas fa-fw mr-2  fa-user-tie"></i> Employees<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
             <div class="row">
                 <div class="col">
-                    <div class="collapse multi-collapse" id="multiCollapseEmployee">
-                    <ul class=" navbar-nav d-flex align-items-justify justify-content-end flex-column">
-                        <li class="nav-item active"> add Employee</li>
-                        <li class="nav-item "> List Employee</li>
-                        <li class="nav-item "> Edit Employee</li>
-                    </ul>
+                    <div class="collapse multi-collapse pl-5" id="multiCollapseEmployee" style="    background-color: rgba(0, 0, 0, 0.2);">
+                    <div class=" navbar-nav d-flex align-items-justify justify-content-end flex-column">
+                        <a href="#" class="nav-item sub-active"> Add Employee</a>
+                        <a href="#" class="nav-item "> List Employee</a>
+                        <a href="#" class="nav-item "> Edit Employee</a>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -75,12 +75,12 @@
                 <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseCalendar" href="#multiCollapseCalendar"><i class="fas fa-fw mr-2 fa-calendar"></i> Calendar<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseCalendar">
-                        <ul class=" navbar-nav d-flex  justify-content-end flex-column">
-                            <li class="nav-item active"> add Calendar</li>
-                            <li class="nav-item "> List Calendar</li>
-                            <li class="nav-item "> Edit Calendar</li>
-                        </ul>
+                        <div class="collapse multi-collapse pl-5" id="multiCollapseCalendar" style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class=" navbar-nav d-flex  justify-content-end flex-column">
+                            <a href="#" class="nav-item sub-active"> add Calendar</a>
+                            <a href="#" class="nav-item "> List Calendar</a>
+                            <a href="#" class="nav-item "> Edit Calendar</a>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -96,11 +96,11 @@
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapseTasks">
-                                <ul class=" navbar-nav d-flex  justify-content-end flex-column">
-                                    <li class="nav-item active"> add Tasks</li>
-                                    <li class="nav-item "> List Tasks</li>
-                                    <li class="nav-item "> Edit Tasks</li>
-                                </ul>
+                                <div class=" navbar-nav d-flex  pl-5 justify-content-end flex-column" style="background-color: rgba(0, 0, 0, 0.2);">
+                                    <a  href="#" class="nav-item sub-active"> add Tasks</a>
+                                    <a href="#" class="nav-item "> List Tasks</a>
+                                    <a href="#" class="nav-item "> Edit Tasks</a>
+                                </div>
                             </div>
                         </div>
                     </div>    

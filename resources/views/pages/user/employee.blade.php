@@ -374,8 +374,8 @@
                     <td>John Doe</td>
                     <td>Kindly send report...</td>
                     <td>Hello, you are invited...</td>
-                    <td> <button type="button" class="btn btn-success" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button>
-                    <button type="button" class="btn btn-info" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button>
+                    <td> <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button>
+                    <button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button>
 
                     </td>
                 

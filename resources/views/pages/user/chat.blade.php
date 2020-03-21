@@ -41,7 +41,7 @@
                         <span class="font-weight-bold mr-1"><i class="fas fa-home mr-1"></i>Home</span> /  Chat
                     </div>
 
-                <div class="step1 row mx-4">
+                <div class="step1 row mx-4 shadow">
                     <div class="col-md-4 bg-light  border-right ">
                         <div class="d-flex justify-content-between m-2">
                             <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="far fa-comments m-2" style="color:#04668C;"></i>ChatBox</h3>
