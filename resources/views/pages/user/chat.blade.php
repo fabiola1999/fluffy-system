@@ -37,13 +37,13 @@
                 </div>
 
                 <div class="content">
-                    <div class="d-flex justify-content-end align-items-center py-2 px-4">
+                    <div class="d-flex justify-content-end align-items-center py-2 px-4  mb-2">
                         <span class="font-weight-bold mr-1"><i class="fas fa-home mr-1"></i>Home</span> /  Chat
                     </div>
 
-                <div class="step1 row mx-4 shadow">
+                <div class="step1 row mx-4 mr-4 pr-4 shadow">
                     <div class="col-md-4 bg-light  border-right ">
-                        <div class="d-flex justify-content-between m-2">
+                        <div class="d-flex justify-content-between m-2 mt-4">
                             <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="far fa-comments m-2" style="color:#04668C;"></i>ChatBox</h3>
                             <form class=" form-inline my-2 my-lg-0 m-8 position-relative search"  style="background-color: rgba(0, 0, 0, .1);" >
                                 <input class="form-control mr-sm-2 bg-transparent border-0" type="search" placeholder="Search..." aria-label="Search"><button class="fas fa-search border-0 position-absolute" style="right:.5rem; color:#606060; border:0;  background-color: rgba(0, 0, 0, .0);" ></button>
@@ -53,7 +53,7 @@
                         </div>
                         <ul class="d-flex flex-column m-0 p-0 w-100">
                         <li>
-                        <div class=" row border-bottom py-3 "> 
+                        <div class=" row border-bottom py-3 ml-2 pr-4"> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -72,7 +72,7 @@
                                 </div> 
                             </div> 
                         </div>
-                        <div class=" row border-bottom py-3 "> 
+                        <div class=" row border-bottom py-3 ml-2 pr-4"> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -91,7 +91,7 @@
                                 </div> 
                             </div> 
                         </div>
-                        <div class=" row border-bottom py-3 "> 
+                        <div class=" row border-bottom py-3 ml-2 pr-4 "> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -128,19 +128,20 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 d-flex justify-content-start p-3" >
+                            <div class="col-12 d-flex justify-content-start p-3"  >
                             <div> 
-                                <div class="card  text-secondary w-75" style=" background-color:#E9E9E9;">
+                                <div class="card  text-secondary w-75  border-0 " style=" background-color:#E9E9E9;">
                                     <div class="px-3 card-img-top font-weight-bold py-2 border-bottom d-flex justify-content-between">
                                         <span>Tami Ambrad</span>
                                         <div>
-                                            <i class="far fa-copy " style="color:#0091CA;">
-                                            </i> <i class="fas fa-share" style="color:#049D27;"></i>
+                                           
+                                             <i class="fas fa-share m-2" style="background-color: #0091CA; color:#FFFFFF;"></i>
+                                              <i class="far fa-copy " style="color:#049D27;"></i>
                                         </div>
                                       
 
                                     </div>
-                                    <div class="card-body font-weight-light">
+                                    <div class="card-body font-weight-light ">
                                         Hey Anna, Could you please help me with the accountant mobile number ?
                                     </div>   
                                 </div>
@@ -149,7 +150,7 @@
                             </div>
                             <div class="col-12 d-flex justify-content-end p-3">
                                 <div class="w-75">
-                                    <div class="card  text-white" style=" background-color:#049D27;">
+                                    <div class="card  text-white border-0" style=" background-color:#049D27;">
                                         <div class="px-3 card-img-top font-weight-bold py-2 border-bottom d-flex justify-content-between">
                                         <span>  <i class="far fa-copy "  style="color:#F7F7F7;">
                                                 </i> <i class="fas fa-share"  style="background-color:#025214; color:#F7F7F7;"></i></span>

@@ -65,6 +65,7 @@
   font-family: "Montserrat Alternates" !important;
   font-size: 12px !important;
   font-weight: bold;
+  width: 330px;
 }
 
 .card1 h1 {
@@ -89,6 +90,7 @@
   font-family: "montserrat Alternates" !important;
   font-size: 12px !important;
   font-weight: bold;
+  width: 330px;
 }
 
 .card2 h1 {
@@ -114,6 +116,7 @@
   font-family: "Montserrat Alternates" !important;
   font-size: 12px !important;
   font-weight: bold;
+  width: 330px;
 }
 
 .card3 h1 {
@@ -140,6 +143,7 @@
   font-family: "Montserrat Alternates" !important;
   font-size: 12px !important;
   font-weight: bold;
+  width: 320px;
 }
 
 .card4 h1 {
@@ -176,9 +180,7 @@
 }
 
 .nav-item.sub-active {
-  background-color: rgba(0, 0, 0, 0.2);
   font-weight: 700;
-  padding-left: 1rem !important;
   height: 50px !important;
   display: flex;
   align-items: center;

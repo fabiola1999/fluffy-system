@@ -100,7 +100,7 @@
                 </div>
             </div>
         </main>
-        <footer class="pt-5 pb-4 px-3 text-white  position-absolute w-100 d-flex align-items-end justify-content-center" style="background-color:rgba(0, 0, 0, .3); font-size:15px; bottom: 0;">
+        <footer class="pt-5 pb-4 px-3 text-white  position-absolute w-100 d-flex align-items-end justify-content-center" style="background-color:rgba(0, 0, 0, .3); font-size:15px; bottom: 0;">               
             <div class="border-top bg-warning" style="border-color: #F5A10E !important; opacity:0.5;"> </div>
             <div class="d-flex align-items-end justify-content-center"> 
                 <div>
@@ -118,10 +118,7 @@
 
 
 
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
+ 
     </body>
 
 </html>

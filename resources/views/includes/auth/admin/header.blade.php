@@ -1,5 +1,5 @@
-<nav class="nav_dash" >
-    <div class="navbar-collapse" id="navbarNavDropdown">
+<nav class="nav_dash d-flex align-items-center" style="height:62px;" >
+    <div class="navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav py-2 d-flex flex-row align-items-center">
             <li class="nav-item font-weight-bold">
                 <i class="fas fa-bars m-2 ml-4" style="font-size:25px; color:#FFFFFF;"></i>

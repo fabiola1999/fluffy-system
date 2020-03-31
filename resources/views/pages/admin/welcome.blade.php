@@ -23,7 +23,7 @@
         
         <div class="row px-4">
             <div class="col-md-3">
-                <div class="card1 rounded-sm text-white h-100">
+                <div class="card1 rounded-sm text-white h-100 ml-2 mr-2 ">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Weekly Worked Time</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -48,7 +48,7 @@
                     </div>
             </div>
             <div class="col-md-3">
-                <div class="card2 rounded-sm text-white h-100">
+                <div class="card2 rounded-sm text-white h-100 ml-2 mr-2">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3" >Total Leave Taken</h4> 
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card3 rounded-sm text-white h-100 rounded-sm">
+                <div class="card3 rounded-sm text-white h-100 rounded-sm ml-2 mr-2">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Unread Messages</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card4 rounded-sm text-blue h-100">
+                <div class="card4 rounded-sm text-blue h-100 pl-2  mr-2 ">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Clock-in-out Status</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
@@ -113,8 +113,8 @@
             </div>
         </div>
         
-        <div class="step1 row ml-3 mt-4">
-            <div class="col-md-7 bg-light mr-4 shadow">
+        <div class="step1 row  mt-4">
+            <div class="col-md-6 bg-light mr-3 ml-5 shadow ">
                 <div class="d-flex justify-content-between m-3">
                     <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="fas fa-tasks m-2" style="color:#F5A10E;"></i>Tasks board</h3>
                     <form class=" form-inline my-2 my-lg-0 mr-5 position-relative search"  style="background-color: rgba(0, 0, 0, .1);" >
@@ -162,8 +162,8 @@
                 </table>
                 <a href="#"><p style="color:#015C16; font-weight:bold;">View full task list  |  ></p></a>
             </div>
-            <div class="col-md-4 bg-light mr-4  shadow">
-                <div class="d-flex justify-content-between border-bottom mb-4 m-4">
+            <div class="col-md-5 bg-light shadow" >
+                <div class="d-flex justify-content-between border-bottom mb-4 mt-4">
                     <h3 style="color:#00305A;  font-size:15px;  font-weight: bold;"><i class="fas fa-tasks m-2" style="color:#F5A10E;"></i>work time traker</h3>
 
                     <p class="mt-2"><i class="fas fa-square m-1" style="color: #049D27;"></i> Clock-In <i class="fas fa-square m-1" style="color: #EC0544;"></i>Clock-out</p>
@@ -186,8 +186,8 @@
         </div>
         
 
-        <div class="step1 row ml-3 mt-4">
-            <div class="col-md-7 bg-light mr-4 shadow">
+        <div class="step1 row  mt-4">
+            <div class="col-md-7 bg-light mr-3 ml-5 px-2 shadow">
                 <div class="d-flex justify-content-between m-4">
                     <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="fas fa-envelope m-2" style="color:#EC0544;"></i>Recents messages</h3>
 
@@ -226,7 +226,7 @@
             <a href="#"><p style="color:#015C16; font-weight:bold;">View full task list  |  ></p></a>
         </div> 
 
-        <div class="col-4 bg-light m-4 shadow">
+        <div class="col-4 bg-light shadow">
             <div class="border-bottom mb-2 m-4"> 
                  <h3 style="color:#00305A;  font-size:15px;  font-weight: bold;"><i class="fas fa-envelope m-2 " style="color:#015C16;"></i>Employee Report</h3>
             </div>
