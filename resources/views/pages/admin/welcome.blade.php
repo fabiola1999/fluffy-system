@@ -58,10 +58,10 @@
                         </div>
                     </div>
 
-                    <div class="px-3 pt-2 pb-3 position-relative">
+                    <div class="px-3 pt-4 pb-1 position-relative">
                         <div class="w-75 text-center">
                             <div class="h3 font-weight-bold m-0">4 Days</div>
-                            <p> You have exceeded </p>
+                            <p style="font-size:15px !important;"> You have exceeded </p>
                         </div>
                         <div class="position-absolute text-white-50" style="bottom: 0; right: 1rem; color:#D9D9D9; opacity:0.2;">
                             <i class="fas fa-university fa-4x"></i>
@@ -79,10 +79,10 @@
                         </div>
                     </div>
                 </div>
-                    <div class="px-3  pt-2 pb-3 position-relative">
+                    <div class="px-3  pt-4 pb-1 position-relative">
                         <div class="w-75 text-center text-center" >
                             <div class="h3 font-weight-bold m-0">4 </div> 
-                            <p>Unread Messages </p>
+                            <p style="font-size:15px !important;">Unread Messages </p>
                         </div>
                     </div> 
                     <div class="position-absolute text-white-50 m-2" style="bottom: 0; right: 1rem; color:#00305A; opacity:0.5;">
@@ -107,7 +107,7 @@
                         </div>
                     </div> 
                     <div class="position-absolute text-white-40 m-2"  style="bottom: 0; right: 1rem; color:#E9E9E9; opacity:0.75;">
-                        <i class="fas fa-stopwatch fa-4x"></i>
+                        <i class="fas fa-stopwatch fa-4x mr-4"></i>
                     </div>
                 </div>
             </div>

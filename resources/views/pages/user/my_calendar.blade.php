@@ -125,7 +125,7 @@
                             </tr>
                         </tbody>
                         </table>
-                        <div class="d-flex justify-content-between m-2">
+                        <div class="d-flex justify-content-between m-2 mb-4">
                             <p style="color:#015C16; font-weight:bold;">Page |  1 of 3</p>
                             <div class="d-flex mr-3 " >
                                 <a href="#"><button type="button" class="btn btn-danger rounded-0 mr-4 mb-0 py-2 px-3" style="color:#FFFFFF; background-color:#04668C; font-size:15px;  font-weight: bold; border:0; "> <i class="fas fa-angle-double-left"></i>&nbsp; Prev</button></a>

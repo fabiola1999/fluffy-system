@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light p-0">
      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="d-flex flex-column m-0 p-0 w-100">
-            <div class="bg-white text-dark d-flex align-items-center justify-content-center font-weight-bold py-3 pr-4" id="navbarNavDropdown">
+            <div class="bg-white text-dark d-flex align-items-center justify-content-center font-weight-bold py-3 pr-3" id="navbarNavDropdown">
                 <i class="far fa-clock fa-2x mr-2"></i>EMP TIME
             </div>
             <li>
@@ -45,15 +45,16 @@
             <li class="nav-item active mt-1">
                 <a class="nav-link pl-4 active" href="#"  ><i class="fas fa-fw fa-user-tie  mr-2 "></i>  Attendance report</a> 
             </li>
+
             <li class="nav-item"> 
                 <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="#multiCollapseExample1"><i class="fas fa-fw mr-2 fa-calendar"></i>My Calendar<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse pl-5" id="multiCollapseExample1" style="background-color: rgba(0, 0, 0, 0.2);">
-                        <div class=" navbar-nav d-flex  justify-content-end flex-column">
-                            <a href="#" class="nav-item sub-active"> add Calendar</a>
-                            <a  href="#" class="nav-item "> List Calendar</a>
-                            <a href="#" class="nav-item "> Edit Calendar</a>
+                        <div class="collapse multi-collapse py-2 pl-4" id="multiCollapseExample1" style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class="border-left pl-3  navbar-nav d-flex align-items-justify  justify-content-end flex-column">
+                            <a href="#" class="nav-item position-relative text-decoration-none sub-active"><span style="left: -16px;  width:15px;" class="position-relative">-</span> Add Calendar</a>
+                            <a href="#" class="nav-item position-relative text-decoration-none "><span style="left: -16px;" class="position-relative">-</span> List Calendar</a>
+                            <a href="#" class="nav-item position-relative text-decoration-none "><span style="left: -16px;" class="position-relative">-</span> Edit Calendar</a>
                         </div>
                         </div>
                     </div>
@@ -83,11 +84,11 @@
                 </div>
                     <div class="row">
                         <div class="col">
-                            <div class="collapse multi-collapse pl-5" id="multiCollapseExample2" style="background-color: rgba(0, 0, 0, 0.2);">
-                                <div class=" navbar-nav d-flex  justify-content-end flex-column">
-                                    <a href="#" class="nav-item active"> add Tasks</a>
-                                    <a href="#" class="nav-item "> List Tasks</a>
-                                    <a href="#" class="nav-item "> Edit Tasks</a>
+                            <div class="collapse multi-collapse py-2 pl-4" id="multiCollapseExample2" style="background-color: rgba(0, 0, 0, 0.2);">
+                                <div class=" border-left pl-3 navbar-nav d-flex align-items-justify   justify-content-end flex-column">
+                                    <a href="#" class="nav-item position-relative text-decoration-none sub-active"><span style="left: -16px;  width:15px;" class="position-relative">-</span> Add Tasks</a>
+                                    <a href="#" class="nav-item position-relative text-decoration-none "><span style="left: -16px;" class="position-relative">-</span> List Tasks</a>
+                                    <a href="#" class="nav-item position-relative text-decoration-none "><span style="left: -16px;" class="position-relative">-</span> Edit Tasks</a>
                                 </div>
                             </div>
                         </div>
@@ -97,11 +98,11 @@
                 <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapsesettings" href="#multiCollapsesettings"> <i class="fas fa-fw mr-2 fa-cog"></i> Settings<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse pl-5" id="multiCollapsesettings" style="background-color: rgba(0, 0, 0, 0.2);">
-                        <div class=" navbar-nav d-flex  justify-content-end flex-column">
-                            <a href="#" class="nav-item sub-active"> profile settings</a>
-                            <a  href="#" class="nav-item "> language settings</a>
-                            <a href="#" class="nav-item "> security settings</a>
+                        <div class="collapse multi-collapse py-2 pl-4" id="multiCollapsesettings" style="background-color: rgba(0, 0, 0, 0.2);">
+                        <div class="border-left pl-3  navbar-nav d-flex  align-items-justify justify-content-end flex-column">
+                            <a href="#" class="nav-item position-relative text-decoration-none sub-active"><span style="left: -16px;  width:15px;" class="position-relative">-</span> profile settings</a>
+                            <a href="#" class="nav-item position-relative text-decoration-none "><span style="left: -16px;" class="position-relative">-</span> language settings</a>
+                            <a href="#" class="nav-item position-relative text-decoration-none "><span style="left: -16px;" class="position-relative">-</span> security settings</a>
                         </div>
                         </div>
                     </div>

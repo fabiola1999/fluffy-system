@@ -29,7 +29,7 @@
         
         <div class="row px-4">
             <div class="col-md-3">
-                <div class="card1 rounded-sm text-white h-100">
+                <div class="card1 rounded-sm text-white h-100 ml-2 mr-2 ">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Weekly Worked Time</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -54,7 +54,7 @@
                     </div>
             </div>
             <div class="col-md-3">
-                <div class="card2 rounded-sm text-white h-100">
+                <div class="card2 rounded-sm text-white h-100 ml-2 mr-2">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3" >Total Leave Taken</h4> 
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -64,10 +64,10 @@
                         </div>
                     </div>
 
-                    <div class="px-3 pt-2 pb-3 position-relative">
+                    <div class="px-3 pt-4 pb-1 position-relative">
                         <div class="w-75 text-center">
                             <div class="h3 font-weight-bold m-0">4 Days</div>
-                            <p> You have exceeded </p>
+                            <p style="font-size:15px !important;"> You have exceeded </p>
                         </div>
                         <div class="position-absolute text-white-50" style="bottom: 0; right: 1rem; color:#D9D9D9; opacity:0.2;">
                             <i class="fas fa-university fa-4x"></i>
@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card3 rounded-sm text-white h-100 rounded-sm">
+                <div class="card3 rounded-sm text-white h-100 rounded-sm ml-2 mr-2">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Unread Messages</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
@@ -85,10 +85,10 @@
                         </div>
                     </div>
                 </div>
-                    <div class="px-3  pt-2 pb-3 position-relative">
+                    <div class="px-3  pt-4 pb-1 position-relative">
                         <div class="w-75 text-center text-center" >
                             <div class="h3 font-weight-bold m-0">4 </div> 
-                            <p>Unread Messages </p>
+                            <p style="font-size:15px !important;">Unread Messages </p>
                         </div>
                     </div> 
                     <div class="position-absolute text-white-50 m-2" style="bottom: 0; right: 1rem; color:#00305A; opacity:0.5;">
@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card4 rounded-sm text-blue h-100">
+                <div class="card4 rounded-sm text-blue h-100 pl-2  mr-2 ">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Clock-in-out Status</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
@@ -113,14 +113,14 @@
                         </div>
                     </div> 
                     <div class="position-absolute text-white-40 m-2"  style="bottom: 0; right: 1rem; color:#E9E9E9; opacity:0.75;">
-                        <i class="fas fa-stopwatch fa-4x"></i>
+                        <i class="fas fa-stopwatch fa-4x mr-4"></i>
                     </div>
                 </div>
             </div>
         </div>
         
         <div class="step1 row ml-3 mt-4">
-            <div class="col-md-7 bg-light mr-4 shadow">
+            <div class="col-md-7 bg-light  mr-0 ml-3 px-2 shadow ">
                 <div class="d-flex justify-content-between m-3">
                     <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="fas fa-tasks m-2" style="color:#F5A10E;"></i>Tasks board</h3>
                     <form class=" form-inline my-2 my-lg-0 mr-5 position-relative search"  style="background-color: rgba(0, 0, 0, .1);" >
@@ -166,31 +166,16 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="d-flex justify-content-between m-2">
-                    <a href="#"><p style="color:#015C16; font-weight:bold;">Page |  1 of 3</p></a>
-                    <div class="d-flex mr-3 " >
-                        <a href="#"><button type="button" class="btn btn-danger rounded-0 mr-4 mb-0 py-2 px-3" style="color:#FFFFFF; background-color:#04668C; font-size:15px;  font-weight: bold; border:0; "> <i class="fas fa-angle-double-left"></i>&nbsp; Prev</button></a>
-                        <div class=" mt-2 ">
-                            <a href="#"><div><strong class="h5 font-weight-bold pr-4 "  style="color:#606060; !important; font-size:1rem;"> 1</strong></div></a>
-                        </div>
-                        <div class=" mt-2 ">
-                            <a href="#"><div><strong class="h5 font-weight-bold pr-4 "  style="color:#606060; !important; font-size:1rem;"> 2</strong></div></a>
-                        </div>
-                        <div class=" mt-2 ">
-                            <a href="#"> <div><strong class="h5 font-weight-bold pr-4"  style="color:#606060; !important; font-size:1rem;"> 3</strong></div></a>
-                        </div>
-                        <a href="#"><button type="button" class="btn btn-danger rounded-0 ml-2  mb-0 py-2 px-3" style="color:#FFFFFF; background-color:#F5A10E; font-size:15px;  font-weight: bold; border:0; "> Next &nbsp; <i class="fas fa-angle-double-right"></i></button></a>
-                    </div>
-                </div>
+                <p style="color:#015C16; font-weight:bold;">View full task list  |  ></p>
             </div>
-            <div class="col-md-4 text-white mr-4 " style="background-color:#00305A;">
+            <div class="col-md-4 text-white ml-5   " style="background-color:#00305A;">
                 <div class="d-flex justify-content-between border-bottom mb-2 mt-4">
                     <h3 style="color:#FFFFFF;  font-size:15px;  font-weight: bold;"><i class="fas fa-tasks m-2" style="color:#F5A10E;"></i>work time traker</h3>
 
                     <p class="mt-2"><i class="fas fa-square m-1" style="color: #049D27;"></i> Clock-In <i class="fas fa-square m-1" style="color: #EC0544;"></i>Clock-out</p>
-                    <div class="d-flex">
+                    <div class="d-flex" style="color:#A8A8A8;">
                         <i class="fas fa-expand-arrows-alt m-2"></i>
-                        <i class="fas fa-expand-arrows-alt m-2"></i>
+                        <i class="fas fa-times m-2"></i>
                     </div>
                 </div>
                 <div class="d-flex justify-content-end"> 
@@ -210,8 +195,8 @@
             </div>
         </div>
         <div class="step1 row ml-3 mt-4">
-            <div class="col-md-7 bg-light mr-4 ">
-                <div class="d-flex justify-content-between m-4">
+            <div class="col-md-7 bg-light mr-0 ml-3 px-2 shadow">
+                <div class="d-flex justify-content-between m-4 border-bottom">
                     <h3 style="color:#025214;  font-size:15px;  font-weight: bold;"><i class="fas fa-clock m-2" style="color:#025214;"></i> Attendance Report log</h3>
                     <div class="font-weight-bold" style=font-size:20px;>Feb 9</div>
                     <div class="d-flex m-2"><button type="button" class="btn btn-success rounded-0 ml-1" style="color:#FFFFFF; background-color:#036C62;  font-size: 12px;   font-weight: bold;"> Today</button>
@@ -255,7 +240,7 @@
                 </table>
                 <p style="color:#015C16; font-weight:bold;">View full task list  |  ></p>
             </div>
-            <div class="col-md-4 bg-light mr-4 ">
+            <div class="col-md-4 bg-light ml-5 ">
                 <div class="d-flex justify-content-between mb-2 mt-4">
                     <h3 style="color:#00305A;  font-size:15px;  font-weight: bold;"><i class="fas fa-calendar-alt m-2" style="color:#04668C;"></i>My Calendar</h3>
                     <div class="d-flex" style="color:#A8A8A8;">
@@ -279,8 +264,8 @@
         
         <div class="step1">
             <div class="row ml-3  mt-4">
-                <div class="col-4 bg-light mr-4">
-                    <div class="d-flex justify-content-between m-2">
+                <div class="col-4 bg-light mr-0 ml-3 px-2 ">
+                    <div class="d-flex justify-content-between m-4 border-bottom">
                     <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="far fa-comments m-2" style="color:#04668C;"></i>ChatBox</h3>
                     <hr>
                     <div class="d-flex" style="color:#A8A8A8;">
@@ -288,7 +273,7 @@
                         <i class="fas fa-times m-2"></i>
                     </div>
                     </div>
-                        <div class=" row border-bottom py-3 "> 
+                        <div class=" row border-bottom py-3 m-3 "> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -307,7 +292,7 @@
                                 </div> 
                             </div> 
                         </div>
-                        <div class=" row border-bottom py-3 "> 
+                        <div class=" row border-bottom py-3 m-3 "> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -326,7 +311,7 @@
                                 </div> 
                             </div> 
                         </div>
-                        <div class=" row border-bottom py-3 "> 
+                        <div class=" row border-bottom py-3  m-3"> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -346,8 +331,8 @@
                         </div>
             </div>
 
-                <div class="col-7 bg-light mr-4">
-                    <div class="d-flex justify-content-between m-2">
+                <div class="col-7 bg-light ml-5 pl-5">
+                    <div class="d-flex justify-content-between m-4  border-bottom">
                     <h3 style="color:#00305A;  font-size:15px;  font-weight: bold;"><i class="fas fa-envelope m-2" style="color:#EC0544;"></i>Recents messages</h3>
                     <hr>
                     <div class="d-flex" style="color:#A8A8A8;">

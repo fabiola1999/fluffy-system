@@ -52,7 +52,7 @@
                     <div class="row px-4">
                         <div class="col-md-3">
                             <div class="card4 rounded-sm text-blue h-80 ">
-                                <h4 class="px-3 py-2"> <i class="fas mr-2 fa-calendar-check " style="color:#F5A10E;"></i>Week 1 - Year 2019</h4>
+                                <h4 class="px-3 py-2"> <i class="fas mr-2  mt-2 fa-calendar-check " style="color:#F5A10E;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
                                     <div class="w-75 ">
@@ -67,7 +67,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="card4 rounded-sm text-blue h-80 ">
-                                <h4 class="px-3 py-2"> <i class="fas mr-2 fa-calendar-check "  style="color:#DF0873;"></i>Week 1 - Year 2019</h4>
+                                <h4 class="px-3 py-2"> <i class="fas mr-2 mt-2 fa-calendar-check "  style="color:#DF0873;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
                                     <div class="w-75 ">
@@ -82,7 +82,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="card4 rounded-sm text-blue h-80 ">
-                                <h4 class="px-3 py-2"> <i class="fas mr-2 fa-calendar-check "  style="color:#036C62;"></i>Week 1 - Year 2019</h4>
+                                <h4 class="px-3 py-2"> <i class="fas mr-2 mt-2 fa-calendar-check "  style="color:#036C62;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
                                     <div class="w-75 ">
@@ -96,8 +96,8 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="card4 rounded-sm text-blue h-80 ">
-                                <h4 class="px-3 py-2"> <i class="fas mr-2 fa-calendar-check " style="color:#0091CA;"></i>Week 1 - Year 2019</h4>
+                            <div class="card4 rounded-sm text-blue h-80  ">
+                                <h4 class="px-3 py-2"> <i class="fas mr-4 mt-2 fa-calendar-check " style="color:#0091CA;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
                                     <div class="w-75 ">
@@ -119,7 +119,9 @@
                 <div class="step1 row mx-4">
                     <div class="col-md-12 bg-light mr-4 ">
                     <div class="d-flex justify-content-between m-2">
-                        <h3 style="color:#025214;  font-size:15px;  font-weight: bold;"><i class="fas fa-clock m-2" style="color:#025214;"></i> Attendance Report</h3>
+                        <div class="mt-4 ">
+                            <h3 style="color:#025214;  font-size:15px;  font-weight: bold;"><i class="fas fa-clock m-2" style="color:#025214;"></i> Attendance Report</h3>
+                        </div>
                         <div class="d-inline-flex text-blue  mb-4 pb-0 pt-2 px-3 ml-4 mt-4" style=" background-color:#F5F5F5; ">
                         <div class="d-flex mr-3" >
                             <div class="mr-2 h5"><i class="fas ml-2 fa-file-excel" style="color:#015C16;!important;"></i></div>

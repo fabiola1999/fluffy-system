@@ -40,7 +40,7 @@
                 </div>  
             </li>
             <li class="nav-item active mt-5">
-             <a class="nav-link pl-1 active" href="#"  ><i class="fas fa-tachometer-alt fa-fw mr-2"></i> Dashboard</a> 
+             <a class="nav-link pl-4 active" href="#"  ><i class="fas fa-tachometer-alt fa-fw mr-2"></i> Dashboard</a> 
             </li>
             <li class="nav-item"> 
             <a class="nav-link pl-4" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseEmployee" href="#multiCollapseEmployee"><i class="fas fa-fw mr-2  fa-user-tie"></i> Employees<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
