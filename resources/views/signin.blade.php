@@ -44,8 +44,8 @@
                 <div class="border-bottom" style="border-color: #F5A10E !important; opacity:0.5;"> </div>
             </nav>
         </header>
-        <main class="container-fluid">
-            <div class="row">
+        <main class="container-fluid py-5 pt-5">
+            <div class="row ">
                 <div class="col-6 ">
                     <div class="signin d-flex justify-content-center m-4 pt-4">
                         
@@ -88,12 +88,12 @@
                 </div>
                 <div class="col-6">
                     <div class="d-flex justify-content-center pt-5">
-                        <div class="rounded-circle bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1 ml-2" style="border: 5px solid #F5A10E; width: 12rem; padding: 10px; transform: translateX(-115%);">                         
+                        <div class="rounded-circle bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1 ml-2" style="border: 5px solid #F5A10E; width: 15rem; padding: 10px; transform: translateX(-115%);">                         
                             <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/business-man-late-meeting.jpg') }}) no-repeat center; background-size: cover;"></div> 
                         </div> 
                     </div>
                     <div class="d-flex justify-content-center pb-5">
-                        <div class="rounded-circle bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1 m-2" style="border: 8px solid #FFFFFF; width: 16rem; padding: 13px;  transform: translateY(-50%);">                         
+                        <div class="rounded-circle bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1 m-2" style="border: 8px solid #FFFFFF; width: 20rem; padding: 13px;  transform: translateY(-50%);">                         
                             <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/businessman_late.jpg') }}) no-repeat center; background-size: cover;"></div> 
                         </div> 
                     </div>
