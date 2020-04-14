@@ -49525,7 +49525,15 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app'
-});
+}); // $(function(){
+//     $('.nav-item .nav-link').click(function(){
+//         // $(this).parent().parent().find('.nav-link').removeClass('active');
+//         $(this).addClass('active');
+//     });
+// });
+// $(document).on('click', 'nav-link nav-item', function () {
+//     $(this).addClass('active').removeClass('active')
+// })
 
 /***/ }),
 

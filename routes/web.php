@@ -22,10 +22,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/attendance_report', function(){
+Route::get('/attendance-report', function(){
     return view('pages.user.attendance_report');
 });
-Route::get('/chat', function(){
+Route::get('/user-chat', function(){
     return view('pages.user.chat');
 });
 Route::get('/message', function(){
@@ -44,11 +44,35 @@ Route::get('notification_menu', function(){
     return view('pages.user.notification_menu');
 });
 
-Route::get('my_calendar', function(){
-    return view('pages.user.My_calendar');
+Route::get('calendar', function(){
+    return view('pages.user.my_calendar');
 });
 
-Route::get('my_task', function(){
+Route::get('task', function(){
     return view('pages.user.My_task');
 });
+
+// Menu employee page admin
+Route::get('employees/add', function(){
+    return view('pages.admin.employee.add_employee');
+});
+
+Route::get('edit', function(){
+    return view('pages.admin.employee.edit_employee');
+});
+
+Route::get('employees', function(){
+    return view('pages.admin.employee.list_employee');
+});
+
+//notifications admin
+Route::get('notifications', function(){
+    return view('pages.admin.notifications');
+});
+
+//chat admin
+Route::get('chat', function(){
+    return view('pages.admin.chat_admin');
+});
+
 

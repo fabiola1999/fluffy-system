@@ -30,3 +30,29 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+
+
+
+// $(function(){
+//     $('.nav-item .nav-link').click(function(){
+//         // $(this).parent().parent().find('.nav-link').removeClass('active');
+//         $(this).addClass('active');
+//     });
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // $(document).on('click', 'nav-link nav-item', function () {
+//     $(this).addClass('active').removeClass('active')
+// })

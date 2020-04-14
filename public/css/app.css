@@ -169,7 +169,7 @@
   font-size: 12px !important;
 }
 
-.nav-item.active {
+.nav-item .active {
   background-color: rgba(0, 0, 0, 0.2);
   font-weight: 700;
   height: 50px !important;
@@ -177,7 +177,7 @@
   align-items: center;
 }
 
-.nav-item.sub-active {
+.nav-item .sub-active {
   font-weight: 700;
   height: 50px !important;
   display: flex;
