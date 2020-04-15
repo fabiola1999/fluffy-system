@@ -28,8 +28,8 @@
         </div>
         
         <div class="row px-4">
-            <div class="col-md-3">
-                <div class="card1 rounded-sm text-white h-100 ml-2 mr-2 ">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card1 rounded-sm text-white h-100 w-100 ml-2 mr-2 ">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Weekly Worked Time</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -53,8 +53,8 @@
                         </div>
                     </div>
             </div>
-            <div class="col-md-3">
-                <div class="card2 rounded-sm text-white h-100 ml-2 mr-2">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card2 rounded-sm text-white h-100 w-100 ml-2 mr-2">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3" >Total Leave Taken</h4> 
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -75,8 +75,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card3 rounded-sm text-white h-100 rounded-sm ml-2 mr-2">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card3 rounded-sm text-white h-100 w-100rounded-sm ml-2 mr-2">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Unread Messages</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
@@ -96,8 +96,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card4 rounded-sm text-blue h-100 pl-2  mr-2 ">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card4 rounded-sm text-blue h-100 w-100">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Clock-in-out Status</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
@@ -120,7 +120,7 @@
         </div>
         
         <div class="step1 row mt-4">
-            <div class="col-md-6 pl-5">
+            <div class="col-lg-6 pl-5">
                 <div class="bg-light shadow">
                     <div class="d-flex justify-content-between border-bottom pt-3 pb-2 px-5 position-relative">
                         <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="fas fa-tasks m-2" style="color:#F5A10E;"></i>Tasks board</h3>
@@ -171,7 +171,7 @@
                     </div>
                 </div>
             </div> 
-            <div class="col-md-6 pr-5" >
+            <div class="col-lg-6 pr-5" >
                 <div class="text-white  shadow h-100" style="background-color:#00305A;" >
                     <div class="d-flex justify-content-between border-bottom pt-3 pb-2 px-3">
                         <h3 style="color:#FFFFFF;  font-size:15px;  font-weight: bold;"><i class="fas fa-tasks m-2" style="color:#F5A10E;"></i>work time traker</h3>
@@ -202,7 +202,7 @@
             </div>
         </div>
         <div class="step1 row ml-3 mt-4">
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="bg-light shadow">
                     <div class="d-flex justify-content-between border-bottom pt-3 pb-2 px-5">     
                         <h3 style="color:#025214;  font-size:15px;  font-weight: bold;"><i class="fas fa-clock m-2" style="color:#025214;"></i> Attendance Report log</h3>
@@ -266,7 +266,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 pr-5" >
+            <div class="col-lg-5 pr-5" >
                 <div class="bg-light shadow h-100" >
                     <div class="d-flex justify-content-between border-bottom pt-3 pb-2 px-3">
                         <h3 style="color:#00305A;  font-size:15px;  font-weight: bold;"><i class="fas fa-calendar-alt m-2" style="color:#04668C;"></i>My Calendar</h3>
@@ -295,7 +295,7 @@
         
         <div class="step1">
             <div class="row mt-4">          
-                <div class="col-md-4 pl-5" >
+                <div class="col-lg-4 pl-5" >
                     <div class="bg-light shadow h-100" >
                         <div class="d-flex justify-content-between border-bottom pt-3 pb-2 px-3">
                             <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="far fa-comments m-2" style="color:#04668C;"></i>ChatBox</h3>
@@ -365,7 +365,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-8 pr-5">
+                <div class="col-lg-8 pr-5">
                     <div class="bg-light shadow">
                     <div class="d-flex justify-content-between border-bottom pt-3 pb-2 px-3 ">
                         <h3 style="color:#00305A;  font-size:15px;  font-weight: bold;"><i class="fas fa-envelope m-2" style="color:#EC0544;"></i>Recents messages</h3>

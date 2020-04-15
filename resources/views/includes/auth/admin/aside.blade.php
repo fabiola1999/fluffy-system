@@ -80,13 +80,13 @@
                 
 
                 <li class="nav-item"> 
-                    <a class="nav-link pl-4   {{ Request::segment(1) === 'employees' ? 'active' : '' }}" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseCalendar" href="#multiCollapseCalendar"><i class="fas fa-fw mr-2 fa-calendar"></i> Calendar<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
+                    <a class="nav-link pl-4   {{ Request::segment(1) === 'calendar' ? 'active' : '' }}" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="multiCollapseCalendar" href="#multiCollapseCalendar"><i class="fas fa-fw mr-2 fa-calendar"></i> Calendar<i class="fas fa-fw mr-2 ml-2 fa-angle-right"></i></a> 
                     <div class="row">
                         <div class="col">
                             <div class="collapse {{ Request::segment(1) === 'calendar' ? 'show' : '' }} multi-collapse  bg-black-50  border-top border-thin pl-4" id="multiCollapseCalendar" data-parent="#accordionExample" style=" background-color: rgba(0, 0, 0, 0.5); border-opacity: 0.5;">
                             <div class="border-left pl-3 navbar-nav d-flex align-items-justify justify-content-end flex-column">
                                 <a href="#" class="nav-item position-relative pt-2 pb-2 text-decoration-none "><span style="left: -16px;  width:15px; opacity:0.5;" class="position-relative">-</span>add Calendar</a>
-                                <a href="{{ url("my_calendar") }}" class="nav-item position-relative pt-2 text-decoration-none "><span style="left: -16px; opacity:0.5;" class="position-relative">-</span> List Calendar</a>
+                                <a href="{{ url("calendar") }}" class="nav-item position-relative pt-2 text-decoration-none "><span style="left: -16px; opacity:0.5;" class="position-relative">-</span> List Calendar</a>
                                 <a href="{{ url("chat") }}" class="nav-item position-relative pt-2 text-decoration-none "><span style="left: -16px; opacity:0.5;" class="position-relative">-</span> Edit Calendar</a>
                             </div>
                             </div>

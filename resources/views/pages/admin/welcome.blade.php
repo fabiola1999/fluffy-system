@@ -22,8 +22,8 @@
         </div>
         
         <div class="row">
-            <div class="col-md-3">
-                <div class="card1 rounded-sm text-white h-100 ">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card1 rounded-sm text-white h-100 w-100">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Weekly Worked Time</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -47,8 +47,8 @@
                         </div>
                     </div>
             </div>
-            <div class="col-md-3">
-                <div class="card2 rounded-sm text-white h-100">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card2 rounded-sm text-white h-100 w-100">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3" >Total Leave Taken</h4> 
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.3;"></div>
@@ -69,8 +69,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card3 rounded-sm text-white h-100 ">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card3 rounded-sm text-white h-100 w-100">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Unread Messages</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
@@ -90,8 +90,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card4 rounded-sm text-blue h-100 ">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card4 rounded-sm text-blue h-100 w-100">
                     <div class="position-relative">
                         <h4 class="px-3 py-2 pt-3">Clock-in-out Status</h4>
                         <div class="border-bottom" style="border-color:#BFBFBF !important; opacity:0.35;"></div>
