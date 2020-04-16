@@ -1,4 +1,4 @@
-<nav class="nav_dash d-flex align-items-center" style="height:62px;" >
+<nav class="nav_dash d-flex align-items-center navbar-fixed-top" style="height:62px;" >
     <div class="navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav py-2 d-flex flex-row align-items-center">
             <li class="nav-item font-weight-bold">

@@ -144,8 +144,8 @@
                                 <td>2020-03-12</td>
                                 <td>urgent</td>
                                 <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#EC0544; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp;  Pending</button></a></td>
-                                <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                    <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
+                                <td><a href="#"> <i class="fas fa-eye ml-1" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-1" style="color:#04668C;"></i></a> 
+                                    <a href="#"><i class="fas fa-trash-alt ml-1" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-1" style="color:#012840;"></i></a>
                                 </td>
                                 </tr>
                                 <tr>
@@ -155,10 +155,32 @@
                                 <td>2020-03-12</td>
                                 <td>urgent</td>
                                 <td><a href="#"><button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#049D27;  font-size:7px;   font-weight: bold; width:80px;"> <i class="fas fa-check-circle"></i>&nbsp; Completed</button></a></td>
-                                <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                    <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
+                                <td><a href="#"> <i class="fas fa-eye ml-1" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-1" style="color:#04668C;"></i></a> 
+                                    <a href="#"><i class="fas fa-trash-alt ml-1" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-1" style="color:#012840;"></i></a>
                                 </td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>2020-02-28</td>
+                                    <td>CEO</td>
+                                    <td>2020-03-12</td>
+                                    <td>urgent</td>
+                                    <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#EC0544; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp;  Pending</button></a></td>
+                                    <td><a href="#"> <i class="fas fa-eye ml-1" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-1" style="color:#04668C;"></i></a> 
+                                        <a href="#"><i class="fas fa-trash-alt ml-1" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-1" style="color:#012840;"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>2020-02-28</td>
+                                    <td>CEO</td>
+                                    <td>2020-03-12</td>
+                                    <td>urgent</td>
+                                    <td><a href="#"><button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#049D27;  font-size:7px;   font-weight: bold; width:80px;"> <i class="fas fa-check-circle"></i>&nbsp; Completed</button></a></td>
+                                    <td><a href="#"> <i class="fas fa-eye ml-1" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-1" style="color:#04668C;"></i></a> 
+                                        <a href="#"><i class="fas fa-trash-alt ml-1" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-1" style="color:#012840;"></i></a>
+                                    </td>
+                                 </tr>
                             </tbody>
                         </table>
                         <a href="#"><p style="color:#015C16; font-weight:bold;">View full task list  |  ></p></a>
@@ -189,6 +211,7 @@
                             </div>
                         </div>
                     </div>
+                    <img src="{{ asset('images/Groupe 235@2x.png') }}" class="img-fluid px-4 pb-4" alt=" work time">
                 </div>
             </div>
             
@@ -227,6 +250,54 @@
                                 </td>
                             
                                 </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>2020-02-10</td>
+                                    <td>John Doe</td>
+                                    <td>Kindly send report...</td>
+                                    <td>Hello, you are invited...</td>
+                                    <td><a href="#"> <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button></a>
+                                        <a href="#"><button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button></a>
+        
+                                    </td>
+                                
+                                    </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>2020-02-10</td>
+                                    <td>John Doe</td>
+                                    <td>Kindly send report...</td>
+                                    <td>Hello, you are invited...</td>
+                                    <td><a href="#"> <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button></a>
+                                        <a href="#"><button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button></a>
+        
+                                    </td>
+                                
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>2020-02-10</td>
+                                        <td>John Doe</td>
+                                        <td>Kindly send report...</td>
+                                        <td>Hello, you are invited...</td>
+                                        <td><a href="#"> <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button></a>
+                                            <a href="#"><button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button></a>
+            
+                                        </td>
+                                    
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>2020-02-10</td>
+                                        <td>John Doe</td>
+                                        <td>Kindly send report...</td>
+                                        <td>Hello, you are invited...</td>
+                                        <td><a href="#"> <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button></a>
+                                            <a href="#"><button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button></a>
+            
+                                        </td>
+                                    
+                                    </tr>
                             </tbody>
                         </table>
                         <a href="#"><p style="color:#015C16; font-weight:bold;">View full task list  |  ></p></a>
@@ -240,8 +311,8 @@
                         <h3 style="color:#00305A; font-size:15px; font-weight: bold;"><i class="fas fa-envelope mr-2 " style="color:#015C16;"></i>Employee Report</h3>
                     </div>
                 
-                    <div class="p-3">
-                        <div class="d-flex justify-content-center">
+                    <div class="p-3 center-block">
+                        <div class="d-flex justify-content-center ">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                 <label class="form-check-label" for="inlineCheckbox1">Daily</label>
@@ -258,8 +329,8 @@
                             </div>
                         </div>
     
-                        <div class="form-group">
-                            <select class="form-control mr-10 " style="width: 70%; background-color:#F5A10E; color:#FFFFFF;" id="exampleFormControlSelect1">
+                        <div class="form-group mx-auto">
+                            <select class="form-control rounded-0 mx-auto" style="width: 70%; background-color:#F5A10E; color:#FFFFFF;" id="exampleFormControlSelect1">
                                 <option>Select employee...</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -268,18 +339,28 @@
                             </select>
                         </div>
     
-                        <div class="row m-1">
-                            <div class="col-2 rounded-circle bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; width: 50px; padding: 4px;">
-                                <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
+                        <div class="row">
+                            {{-- <div class="mx-aut"> --}}
+                                 
+                            {{-- </div> --}}
+                            
+                            <div class="col-12">
+                                <div class="d-flex align-items-center mx-auto" style="width: 70%">
+                                    <div class="rounded-circle bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; flex: 0 0 80px; padding: 4px;">
+                                        <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
+                                        </div>
+                                    </div>
+                                
+                                    <div class="pl-3">
+                                        <div class="row">
+                                            <h4 class="col-12 font-weight-bold">Tami Ambrad</h4> 
+                                            <h6 class="col-12  font-weight-light" style="font-size: 18px;">Sales manager</h6>
+                                        </div>
+                                    </div>    
                                 </div>
-                            </div> 
-                            <div class="col-10">
-                                <div class="row">
-                                    <h4 class="col-12">Tami Ambrad</h4> 
-                                    <p class="col-12 d-block">Sales manager</p>
-                                </div> 
-                            </div> 
+                            </div>
                         </div>
+                        <img src="{{ asset('images/Groupe 234@2x.png') }}" class="img-fluid pl-5 pt-3" alt="employee report">
                     </div>
                 </div>
                 

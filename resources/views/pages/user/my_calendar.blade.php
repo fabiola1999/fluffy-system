@@ -43,9 +43,9 @@
                             <div class="d-inline-flex text-blue  mb-4 pb-0 pt-2 px-3 ml-4 mt-4" style=" background-color:#F5F5F5; ">
                         <div class="d-flex mr-3" >
                             <div class="font-weight-bold mr-2" style="color:#606060; font-size:15px;">Filter Content :</div>
-                            <div class="d-inline-flex text-white py-2 px-3 " style=" background-color:#0091CA;">
+                            <div class="d-inline-flex text-white py-1 px-3 " style=" background-color:#0091CA;">
                                 <div class="d-flex mr-3" >
-                                    <div class="mr-2 h5"><i class="fas mr-2 fa-calendar" style="color:#D9D9D9 !important;"></i></div>
+                                    <div class="mr-2 h5"><i class="fas mr-2 fa-calendar" style="color:#E9E9E9 !important;"></i></div>
                                     <div>
                                         <div><strong class="h5 font-weight-bold pr-2  border-right text-white"> DD</strong></div>
                                     </div>
@@ -60,8 +60,8 @@
                             </div>
                         </div>
                         </div>
-                        <form class="form-inline my-2 my-lg-0  position-relative">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search"><button class="fas fa-search bg-transparent border-0 position-absolute" style="right: .5rem; color:#606060;" ></button>
+                        <form class="form-inline my-2 my-lg-0  position-relative" style="background-color: rgba(0, 0, 0, .1); height:40px;  top: 50%; right: 1rem; transform: translateY(70%);" >
+                            <input class="form-control bg-transparent border-0  mr-sm-2" type="search" placeholder="Search..." aria-label="Search"><button class="fas fa-search  border-0 position-absolute" style="right: .5rem; color:#606060;  background-color: rgba(0, 0, 0, .0);" ></button>
                         </form>
                         <a href="#"><button type="button" class="btn btn-danger rounded-0 mt-4" style="color:#FFFFFF; background-color:#049D27; font-size:15px;  font-weight: bold; border:0; "><i class="fas fa-plus"></i>&nbsp;  Add Event</button></a>
                     </div>
@@ -83,50 +83,50 @@
                         <tbody>
                             <tr>
                             <th scope="row">1</th>
-                            <td>2020-02-28</td>
-                            <td>CEO</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td>2020-03-12</td>
+                            <td>Merry Christmas day</td>
+                            <td>Monday  24 Feb, 2019</td>
+                            <td class="font-weight-bold">08 : 35 AM</td>
+                            <td>Monday  24 Feb, 2019</td>
+                            <td class="font-weight-bold">18 : 35 PM</td>
+                            <td class="font-weight-bold">Public Event</td>
+                            <td>Meeting with CEO of DHL</td>
                             <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#1BB13D; font-size:8px;  border:0; font-weight: bold; width:80px;"> <i class="fas fa-check-square"></i>&nbsp;  Achieved</button></a>
-                            <a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
+                            <a href="#"> <i class="fas fa-eye ml-2 pl-3" style="color:#00AAED;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
+                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> </a>
                             </td>
                             </tr>
                             <tr>
-                            <th scope="row">1</th>
-                            <td>2020-02-28</td>
-                            <td>CEO</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td>2020-03-12</td>
+                            <th scope="row">2</th>
+                            <td>Celebration of halloween</td>
+                            <td>Monday  24 Feb, 2019</td>
+                            <td class="font-weight-bold">08 : 35 AM</td>
+                            <td>Monday  24 Feb, 2019</td>
+                            <td class="font-weight-bold">18 : 35 PM</td>
+                            <td class="font-weight-bold">Office Event</td>
+                            <td>Meeting Biopharma</td>
                             <td><a href="#"><button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#EC0544; border:0;  font-size:7px;   font-weight: bold; width:80px;"><i class="fas fa-times"></i>&nbsp; Unachieved</button></a>
-                            <a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
+                            <a href="#"> <i class="fas fa-eye ml-2 pl-3" style="color:#00AAED;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
+                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> </a>
                             </td>
                             </tr>
                             <tr>
-                                <th scope="row">1</th>
-                                <td>2020-02-28</td>
-                                <td>CEO</td>
-                                <td>2020-03-12</td>
-                                <td>urgent</td>
-                                <td>2020-03-12</td>
-                                <td>urgent</td>
-                                <td>2020-03-12</td>
-                                <td><a href="#"><button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#F5A10E; border:0;  font-size:7px;   font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp; pending</button></a>
-                                <a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                    <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
+                                <th scope="row">3</th>
+                                <td>Check web status of site</td>
+                                <td>Monday  24 Feb, 2019</td>
+                                <td class="font-weight-bold">08 : 35 AM</td>
+                                <td>Monday  24 Feb, 2019</td>
+                                <td class="font-weight-bold">18 : 35 PM</td>
+                                <td class="font-weight-bold">Regular Event</td>
+                                <td>Joining partnership</td>
+                                <td><a href="#"><button type="button" class="btn btn-success rounded-0 " style="color:#FFFFFF; background-color:#F5A10E; border:0;  font-size:7px;   font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp; pending</button></a>
+                                <a href="#"> <i class="fas fa-eye ml-2 pl-3" style="color:#00AAED;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
+                                    <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"></a>
                                 </td>
                             </tr>
                         </tbody>
                         </table>
                         <div class="d-flex justify-content-between m-2 mb-4">
-                            <p style="color:#015C16; font-weight:bold;">Page |  1 of 3</p>
+                            <p style="color:#606060; font-weight:bold;">Page |  1 of 3</p>
                             <div class="d-flex mr-3 " >
                                 <a href="#"><button type="button" class="btn btn-danger rounded-0 mr-4 mb-0 py-2 px-3" style="color:#FFFFFF; background-color:#04668C; font-size:15px;  font-weight: bold; border:0; "> <i class="fas fa-angle-double-left"></i>&nbsp; Prev</button></a>
                                 <div class=" mt-2 ">

@@ -40,9 +40,9 @@
 
                     <div class="d-inline-flex text-white  mb-4 pb-0 pt-2 px-3 ml-4 mt-4" style=" background-color:#012840;">
                         <div class="d-flex mr-3" >
-                            <div class="mr-2 h5"><i class="fas mr-2 fa-calendar" style="color:#D9D9D9 !important;"></i></div>
+                            <div class="mr-2 h5"><i class="fas mr-2 fa-calendar" style="color:#F5A10E !important;"></i></div>
                             <div>
-                                <div><strong class="h5 font-weight-bold pr-2  border-right text-white"> February</strong></div>
+                                <div><strong class="col h5 font-weight-bold pr-2  border-right text-white"> February</strong></div>
                             </div>
                         </div>
                         <div>
@@ -50,8 +50,8 @@
                         </div>
                     </div>
                     <div class="row px-4">
-                        <div class="col-md-3">
-                            <div class="card4 rounded-sm text-blue h-80 ">
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card4 rounded-sm text-blue h-100 w-100 "> 
                                 <h4 class="px-3 py-2"> <i class="fas mr-2  mt-2 fa-calendar-check " style="color:#F5A10E;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
@@ -65,8 +65,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card4 rounded-sm text-blue h-80 ">
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card4 rounded-sm text-blue h-100 w-100 ">
                                 <h4 class="px-3 py-2"> <i class="fas mr-2 mt-2 fa-calendar-check "  style="color:#DF0873;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
@@ -80,8 +80,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card4 rounded-sm text-blue h-80 ">
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card4 rounded-sm text-blue h-100 w-100 ">
                                 <h4 class="px-3 py-2"> <i class="fas mr-2 mt-2 fa-calendar-check "  style="color:#036C62;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
@@ -95,8 +95,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="card4 rounded-sm text-blue h-80  ">
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card4 rounded-sm text-blue h-100 w-100  ">
                                 <h4 class="px-3 py-2"> <i class="fas mr-4 mt-2 fa-calendar-check " style="color:#0091CA;"></i>Week 1 - Year 2019</h4>
 
                                 <div class="px-3 pt-2 pb-3 position-relative">
@@ -142,8 +142,9 @@
                             </div>
                         </div>
                         </div>
-                        <form class="form-inline my-2 my-lg-0 m-8 position-relative">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search"><button class="fas fa-search bg-transparent border-0 position-absolute" style="right: .5rem; color:#606060;" ></button>
+
+                        <form class="form-inline my-2 my-lg-0  position-relative" style="background-color: rgba(0, 0, 0, .1); height:40px;  top: 50%; right: 1rem; transform: translateY(40%);" >
+                            <input class="form-control bg-transparent border-0  mr-sm-2" type="search" placeholder="Search..." aria-label="Search"><button class="fas fa-search  border-0 position-absolute" style="right: .5rem; color:#606060;  background-color: rgba(0, 0, 0, .0);" ></button>
                         </form>
                     </div>
 
@@ -151,40 +152,80 @@
                         <thead class="thead" style="background-color:#00305A !important; color:#FFFFFF; font-weigt:bold;">
                             <tr>
                             <th scope="col">SL</th>
-                            <th scope="col">Creation Date</th>
-                            <th scope="col">Author</th>
-                            <th scope="col">Date Due</th>
-                            <th scope="col">Comment</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">Action</th>
+                            <th scope="col">Day</th>
+                            <th scope="col">clock in Date</th>
+                            <th scope="col">Clock in Time</th>
+                            <th scope="col">Clock out Date</th>
+                            <th scope="col">Clock Out Time</th>
+                            <th scope="col">Total Hours</th>
+                            <th scope="col">Observations </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                            <th scope="row">1</th>
-                            <td>2020-02-28</td>
-                            <td>CEO</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#EC0544; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp;  Pending</button></a></td>
-                            <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
-                            </td>
+                                <th scope="row">1</th>
+                                <td>Monday</td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#DF0873; font-size:8px;  font-weight: bold; border:0;"><i class="fas fa-times"></i> </button></td> 
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#049D27; font-size:8px;  font-weight: bold; border:0;"><i class="far fa-check-circle"></i> </button></td> 
+                                <td>08 : 35 Hours</td>
+                                <td><div class="font-weight-bold" style="color:#AF0303; font-size:12px;">Time not achieved</div> </td>
                             </tr>
                             <tr>
-                            <th scope="row">1</th>
-                            <td>2020-02-28</td>
-                            <td>CEO</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td><a href="#"><button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#049D27;  font-size:7px;   font-weight: bold; width:80px;"> <i class="fas fa-check-circle"></i>&nbsp; Completed</button></a></td>
-                            <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
-                            </td>
+                                <th scope="row">2</th>
+                                <td>Tuesday</td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#049D27; font-size:8px;  font-weight: bold; border:0;"><i class="far fa-check-circle"></i> </button> </td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#DF0873; font-size:8px;  font-weight: bold; border:0;"><i class="fas fa-times"></i> </button></td> 
+                                <td>08 : 35 Hours</td>
+                                <td><div class="font-weight-bold" style="color:#24943D; font-size:12px;">Time Achieved </div> </td>
                             </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Monday</td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#049D27; font-size:8px;  font-weight: bold; border:0;"><i class="far fa-check-circle"></i> </button> </td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#049D27; font-size:8px;  font-weight: bold; border:0;"><i class="far fa-check-circle"></i> </button></td> 
+                                <td>08 : 35 Hours</td>
+                                <td><div class="font-weight-bold" style="color:#AF0303; font-size:12px;">Time not achieved</div> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Tuesday</td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#DF0873; font-size:8px;  font-weight: bold; border:0;"><i class="fas fa-times"></i> </button></td> 
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#DF0873; font-size:8px;  font-weight: bold; border:0;"><i class="fas fa-times"></i> </button></td> 
+                                <td>08 : 35 Hours</td>
+                                <td><div class="font-weight-bold" style="color:#24943D; font-size:12px;">Time Achieved </div> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Monday</td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#049D27; font-size:8px;  font-weight: bold; border:0;"><i class="far fa-check-circle"></i> </button> </td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#DF0873; font-size:8px;  font-weight: bold; border:0;"><i class="fas fa-times"></i> </button></td> 
+                                <td>08 : 35 Hours</td>
+                                <td><div class="font-weight-bold" style="color:#24943D; font-size:12px;">Time Achieved </div> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Tuesday</td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#049D27; font-size:8px;  font-weight: bold; border:0;"><i class="far fa-check-circle"></i> </button> </td>
+                                <td>February  24, 2019</td>
+                                <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#DF0873; font-size:8px;  font-weight: bold; border:0;"><i class="fas fa-times"></i> </button></td> 
+                                <td>08 : 35 Hours</td>
+                                <td><div class="font-weight-bold" style="color:#24943D; font-size:12px;">Time Achieved </div> </td>
+                            </tr>
+
                         </tbody>
                         </table>
-                        <div class="d-flex justify-content-between m-2">
+                        <div class="d-flex justify-content-between m-2 pb-5">
                             <a href="#"><p style="color:#015C16; font-weight:bold;">Page |  1 of 3</p></a>
                             <div class="d-flex mr-3 " >
                                 <a href="#"><button type="button" class="btn btn-danger rounded-0 mr-4 mb-0 py-2 px-3" style="color:#FFFFFF; background-color:#04668C; font-size:15px;  font-weight: bold; border:0; "> <i class="fas fa-angle-double-left"></i>&nbsp; Prev</button></a>
