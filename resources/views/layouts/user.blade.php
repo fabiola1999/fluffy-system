@@ -4,7 +4,9 @@
         <div class="flex-fill content">
             @include('includes.auth.user.header')
 
-            @yield('content')
+            <div style="margin-top: 62px:">
+                @yield('content')
+            </div>
         </div>
         @include('includes.auth.user.footer')
     </div>

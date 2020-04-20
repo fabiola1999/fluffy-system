@@ -68,8 +68,8 @@
                         <a href="#"><button type="button" class="btn btn-danger rounded-0 mt-4" style="color:#FFFFFF; background-color:#049D27; font-size:15px;  font-weight: bold; border:0; "><i class="fas fa-plus"></i>&nbsp;  Add Event</button></a>
                     </div>
 
-                    <table class="table table-bordered">
-                        <thead class="thead" style="background-color:#00305A !important; color:#FFFFFF; font-weigt:bold;">
+                    <table class="table table-bordered ">
+                        <thead class="thead px-4" style="background-color:#00305A !important; color:#FFFFFF; font-weigt:bold;">
                             <tr>
                                 <th scope="col">SL</th>
                                 <th scope="col">Creation Date</th>

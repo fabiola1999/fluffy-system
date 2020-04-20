@@ -221,6 +221,7 @@
                             </div>
                         </div>
                         <img src="{{ asset('images/Groupe 236@2x.png') }}" class="img-fluid px-4 pb-4" alt=" work time">
+
                     </div>
                 </div>
             </div>
@@ -300,6 +301,7 @@
                                         <td>08 : 35 AM  <button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#DF0873; font-size:8px;  font-weight: bold; border:0;"><i class="fas fa-times"></i> </button></td> 
                                         <td>08 : 35 AM</td>
                                     </tr>
+
                                 </tbody>
                             </table>
                             <p style="color:#606060; font-weight:bold;">View full task list  |  ></p>
@@ -459,7 +461,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">1</th>
+                                    <th scope="row">2</th>
                                     <td>2020-02-10</td>
                                     <td>John Doe</td>
                                     <td>Kindly send report...</td>
@@ -469,7 +471,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">1</th>
+                                    <th scope="row">3</th>
                                     <td>2020-02-10</td>
                                     <td>John Doe</td>
                                     <td>Kindly send report...</td>
@@ -479,7 +481,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">1</th>
+                                    <th scope="row">4</th>
                                     <td>2020-02-10</td>
                                     <td>John Doe</td>
                                     <td>Kindly send report...</td>
@@ -489,7 +491,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">1</th>
+                                    <th scope="row">5</th>
                                     <td>2020-02-10</td>
                                     <td>John Doe</td>
                                     <td>Kindly send report...</td>
@@ -499,7 +501,27 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">1</th>
+                                    <th scope="row">6</th>
+                                    <td>2020-02-10</td>
+                                    <td>John Doe</td>
+                                    <td>Kindly send report...</td>
+                                    <td>Hello, you are invited...</td>
+                                    <td> <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button>
+                                    <button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>2020-02-10</td>
+                                    <td>John Doe</td>
+                                    <td>Kindly send report...</td>
+                                    <td>Hello, you are invited...</td>
+                                    <td> <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 7px;   font-weight: bold;"><i class="fas fa-eye"></i> &nbsp; View</button>
+                                    <button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#04668C;  font-size: 7px;   font-weight: bold;" ><i class="fas fa-reply"></i> &nbsp; Reply</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
                                     <td>2020-02-10</td>
                                     <td>John Doe</td>
                                     <td>Kindly send report...</td>

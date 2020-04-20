@@ -1,5 +1,5 @@
-<aside class="min-vh-100 nav_dash" style="flex: 0 0 250px; height: 1250px;">
-    <nav class="navbar navbar-expand-lg navbar-light p-0">
+<aside class="min-vh-100  nav_dash h-100" style="flex: 0 0 250px; height: 1250px;">
+    <nav class="navbar navbar-expand-lg navbar-light  p-0">
      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="d-flex flex-column m-0 p-0 w-100">
             <div class="bg-white text-dark d-flex align-items-center justify-content-center font-weight-bold py-3 pr-3" id="navbarNavDropdown">

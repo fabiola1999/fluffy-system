@@ -124,8 +124,8 @@
                     </div>
 
                     <div class="p-3">
-                        <table class="table table-bordered ">
-                            <thead class="thead" style="background-color:#00305A !important; color:#FFFFFF; font-weigt:bold;">
+                        <table class="table table-bordered " >
+                            <thead class="thead border-0" style="background-color:#00305A !important; color:#FFFFFF; font-weigt:bold; ">
                                 <tr>
                                 <th scope="col">SL</th>
                                 <th scope="col">Creation Date</th>

@@ -72,7 +72,7 @@
                                 </div> 
                             </div> 
                         </div>
-                        <div class=" row border-bottom py-3 ml-2 pr-4"> 
+                        <div class=" row border-bottom py-2 ml-2 pr-4"> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -91,7 +91,25 @@
                                 </div> 
                             </div> 
                         </div>
-                        <div class=" row border-bottom py-3 ml-2 pr-4 "> 
+                        <div class=" row border-bottom py-2 ml-2 pr-4 "> 
+                            <div class="col-2 p-0">
+                                <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
+                                    <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col-10">
+                            <div class="row ">
+                                <div class="d-flex justify-content-between col-12   ">
+                                    <h6 class="font-weight-bold " >Tami Ambrad</h6> 
+                                    <p  class="pl-4   font-weight-bold" style="font-size:9px; color:#A8A8A8;" > 18-02-2019   &nbsp; 13 : 40 PM</p> 
+                                </div>
+                                <p class="col-12 d-block font-weight-light">Hey Anna, Could you please... </p>
+                                </div> 
+                            </div> 
+                        </div>
+                        <div class=" row border-bottom py-2 ml-2 pr-4 "> 
                             <div class="col-2 p-0">
                                 <div class="rounded-circle position-relative bg-transparent d-flex justify-content-center align-items-center embed-responsive embed-responsive-1by1" style="border: 3px solid #00305A; padding: 4px;">
                                     <div class="rounded-circle embed-responsive embed-responsive-1by1" style="background: url({{ asset('images/pic1.jpg') }}) no-repeat center; background-size: cover;"> 
@@ -130,13 +148,14 @@
                         <div class="row">
                             <div class="col-12 d-flex justify-content-start p-3"  >
                             <div> 
-                                <div class="card  text-secondary w-75  border-0 " style=" background-color:#E9E9E9;">
+                                <div class="card  text-secondary w-100  border-0 rounded-0" style=" background-color:#E9E9E9;">
                                     <div class="px-3 card-img-top font-weight-bold py-2 border-bottom d-flex justify-content-between">
                                         <span>Tami Ambrad</span>
-                                        <div>
-                                           
-                                             <i class="fas fa-share m-2" style="background-color: #0091CA; color:#FFFFFF;"></i>
-                                              <i class="far fa-copy " style="color:#049D27;"></i>
+                                        <div class="d-flex justify-content-between">
+ 
+                                             <div class="mr-2 rounded-sm" style="background-color: #0091CA;">
+                                                <i class="fas fa-reply px-1 py-1" style=" color:#FFFFFF;"></i> </div> 
+                                              <i class="far fa-copy pt-1 " style="color:#049D27; font-size:18px;"></i>
                                         </div>
                                       
 
@@ -145,22 +164,49 @@
                                         Hey Anna, Could you please help me with the accountant mobile number ?
                                     </div>   
                                 </div>
-                                <div class="d-flex justify-content-end w-75" >il y'a 1 heure</div>
+                                <div class="d-flex justify-content-end w-100 font-weight-light"  style="color:#606060;">il y'a 1 heure</div>
                             </div>
                             </div>
-                            <div class="col-12 d-flex justify-content-end p-3">
-                                <div class="w-75">
-                                    <div class="card  text-white border-0" style=" background-color:#049D27;">
+                            <div class="col-12 d-flex justify-content-end p-3 ">
+                                <div class="w-75 ">
+                                    <div class="card  text-white border-0 rounded-0" style=" background-color:#049D27;">
                                         <div class="px-3 card-img-top font-weight-bold py-2 border-bottom d-flex justify-content-between">
-                                        <span>  <i class="far fa-copy "  style="color:#F7F7F7;">
-                                                </i> <i class="fas fa-share"  style="background-color:#025214; color:#F7F7F7;"></i></span>
+
+                                             <div class="d-flex justify-content-between">
+ 
+                                                <div class="mr-2 rounded-sm" style="background-color: #025214;">
+                                                   <i class="fas fa-reply px-1 py-1" style=" color:#FFFFFF;"></i> </div> 
+                                                 <i class="far fa-copy pt-1 " style="color:#F7F7F7; font-size:18px;"></i>
+                                           </div>
                                             <div>You </div>
                                         </div>
                                         <div class="card-body font-weight-light">
-                                            Hey Anna, Could you please help me with the accountant mobile number ?
+                                            Ok. Please just give me some times to crosscheck in my phonebook and get it for you. Just hold on for 2-3 min.
                                         </div>
                                     </div>
-                                    <div class="d-flex justify-content-end" >il y'a 1 heure</div>
+                                    <div class="d-flex justify-content-end font-weight-light"  style="color:#606060;" >30 Min ago</div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-start p-3"  >
+                                <div> 
+                                    <div class="card  text-secondary w-100  border-0 rounded-0" style=" background-color:#E9E9E9;">
+                                        <div class="px-3 card-img-top font-weight-bold py-2 border-bottom d-flex justify-content-between">
+                                            <span>Tami Ambrad</span>
+
+                                         <div class="d-flex justify-content-between">
+ 
+                                             <div class="mr-2 rounded-sm" style="background-color: #0091CA;">
+                                                <i class="fas fa-reply px-1 py-1" style=" color:#FFFFFF;"></i> </div> 
+                                              <i class="far fa-copy pt-1 " style="color:#049D27; font-size:18px;"></i>
+                                        </div>
+                                          
+    
+                                        </div>
+                                        <div class="card-body font-weight-light ">
+                                            Hey Anna, Could you please help me with the accountant mobile number ?
+                                        </div>   
+                                    </div>
+                                    <div class="d-flex justify-content-end w-100 font-weight-light"  style="color:#606060;">il y'a 1 heure</div>
                                 </div>
                             </div>
                         </div>
@@ -177,8 +223,8 @@
                     <div class="col-md-4 bg-light ">
                         <div class="border-bottom py-3 text-center ">
                          
-                            <div class="d-flex justify-content-end align-items-center text-white bg-success font-weight-bold w-25 py-1 px-3 " >
-                                <div class="rounded-circle bg-light embed-responsive embed-responsive-1by1 mr-1"  style="width: 10px; height: 10px;"></div>
+                            <div class="d-flex justify-content-center align-items-center text-white  font-weight-bold w-25 py-1 px-3 " style="background-color:#24943D; ">
+                                <div class="rounded-circle bg-light embed-responsive embed-responsive-1by1 mr-1"  style="width: 10px; height: 10px; "></div>
                                 Online
                             </div>
                             <div class="d-flex justify-content-center">

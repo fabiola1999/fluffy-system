@@ -45,70 +45,59 @@
                         <h3 style="color:#04668C;  font-size:15px;  font-weight: bold;"><i class="fas fa-envelope m-2" style="color:#EC0544;"></i>Messages</h3>
                     </div>
                     <div class="m-2 ml-4">
-                        <button type="button" class="btn btn-success" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 15px; border:0;" ><i class="fas fa-inbox"></i> &nbsp; Inbox (02)</button>
-                        <button type="button" class="btn btn-info" style="color:#FFFFFF; background-color:#0091CA;  font-size: 15px; border:0;" ><i class="fas fa-paper-plane"></i>&nbsp; Send (02)</button>
-                        <button type="button" class="btn btn-info" style="color:#FFFFFF; background-color:#F5A10E;  font-size: 15px; border:0;" ><i class="fas fa-archive"></i> &nbsp; Archive (02)</button>
+                        <button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#1BB13D;  font-size: 15px; border:0;" ><i class="fas fa-inbox"></i> &nbsp; Inbox (02)</button>
+                        <button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#0091CA;  font-size: 15px; border:0;" ><i class="fas fa-paper-plane"></i>&nbsp; Send (02)</button>
+                        <button type="button" class="btn btn-info rounded-0" style="color:#FFFFFF; background-color:#F5A10E;  font-size: 15px; border:0;" ><i class="fas fa-archive"></i> &nbsp; Archive (02)</button>
                     </div>
-                <div class="row">
-                    <div class="col-6 ml-4">
+                <div class="row pb-5">
+                <div class="col-6 ml-4">
                     <table class="table table-bordered">
                         <thead class="thead" style="background-color:#00305A !important; color:#FFFFFF; font-weigt:bold;">
                             <tr>
                             <th scope="col">SL</th>
-                            <th scope="col">Creation Date</th>
-                            <th scope="col">Author</th>
-                            <th scope="col">Date Due</th>
-                            <th scope="col">Comment</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">Action</th>
+                            <th scope="col">From </th>
+                            <th scope="col">Subject</th>
+                            <th scope="col"> To</th>
+                            <th scope="col">Date</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                             <th scope="row">1</th>
-                            <td>2020-02-28</td>
-                            <td>CEO</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#EC0544; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp;  Pending</button></a></td>
-                            <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
-                            </td>
+                            <td>John DOE</td>
+                            <td class="font-weight-bold">Hello, you are invited...</td>
+                            <td>Kindly send report...</td>
+                            <td>28 - 01 -2020</td>
                             </tr>
                             <tr>
-                            <th scope="row">1</th>
-                            <td>2020-02-28</td>
-                            <td>CEO</td>
-                            <td>2020-03-12</td>
-                            <td>urgent</td>
-                            <td><a href="#"><button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#049D27;  font-size:7px;   font-weight: bold; width:80px;"> <i class="fas fa-check-circle"></i>&nbsp; Completed</button></a></td>
-                            <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
-                            </td>
-                             </tr>
+                                <th scope="row">2</th>
+                                <td>John DOE</td>
+                                <td class="font-weight-bold">Checking operating...</td>
+                                <td>Kindly send report...</td>
+                                <td>28 - 01 -2020</td>
+                            </tr>
                             <tr>
-                                <th scope="row">1</th>
-                                <td>2020-02-28</td>
-                                <td>CEO</td>
-                                <td>2020-03-12</td>
-                                <td>urgent</td>
-                                <td><a href="#"><button type="button" class="btn btn-danger rounded-0" style="color:#FFFFFF; background-color:#EC0544; font-size:8px;  font-weight: bold; width:80px;"><i class="fas fa-spinner fa-spin"></i>&nbsp;  Pending</button></a></td>
-                                <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                    <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
-                                </td>
+                                <th scope="row">3</th>
+                                <td>John DOE</td>
+                                <td class="font-weight-bold">Good morning sir...</td>
+                                <td>Validate our meeting...</td>
+                                <td>28 - 01 -2020</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>John DOE</td>
+                                <td class="font-weight-bold">You are expected to...</td>
+                                <td>Kindly send report...</td>
+                                <td>28 - 01 -2020</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>John DOE</td>
+                                <td class="font-weight-bold">Users are always...</td>
+                                <td>Kindly send report...</td>
+                                <td>28 - 01 -2020</td>
                             </tr>
 
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>2020-02-28</td>
-                                <td>CEO</td>
-                                <td>2020-03-12</td>
-                                <td>urgent</td>
-                                <td><a href="#"><button type="button" class="btn btn-success rounded-0" style="color:#FFFFFF; background-color:#049D27;  font-size:7px;   font-weight: bold; width:80px;"> <i class="fas fa-check-circle"></i>&nbsp; Completed</button></a></td>
-                                <td><a href="#"> <i class="fas fa-eye ml-2" style="color:#049D27;"></i></a><a href="#"> <i class="fas fa-edit ml-2" style="color:#04668C;"></i></a> 
-                                    <a href="#"><i class="fas fa-trash-alt ml-2" style="color:#EC0544;"></i></a> <a href="#"> <i class="fas fa-download ml-2" style="color:#012840;"></i></a>
-                                </td>
-                            </tr>
                         </tbody>
                         </table>
                     </div>

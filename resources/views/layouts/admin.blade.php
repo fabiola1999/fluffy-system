@@ -4,8 +4,13 @@
         <div class="flex-fill content">
             @include('includes.auth.admin.header')
 
-            @yield('content')
+            <div style="margin-top: 62px;">
+                @yield('content')
+            </div>
         </div>
         @include('includes.auth.admin.footer')
     </div>
 @include('includes.foot')
+
+
+

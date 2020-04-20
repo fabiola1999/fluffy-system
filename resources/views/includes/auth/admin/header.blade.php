@@ -1,4 +1,4 @@
-<nav class="nav_dash d-flex align-items-center navbar-fixed-top" style="height:62px;" >
+<nav class="nav_dash d-flex align-items-center navbar navbar-expand-md navbar-dark  fixed-top" style="height:60px;  left:250px;  width: calc(100% - 255px); " >
     <div class="navbar-collapse " id="navbarNavDropdown">
         <ul class="navbar-nav py-2 d-flex flex-row align-items-center">
             <li class="nav-item font-weight-bold">
@@ -12,7 +12,7 @@
             </li>
             <li class="nav-item-right  font-weight-bold ml-auto">
                 <div class="d-flex">
-                <a class="nav-link pl-4" href="#"> 
+                <a class="nav-link pl-4" href="#" > 
                     <i class="fa fa-sms" style="font-size:18px; color:#FFFFFF;"></i>
                     <div class="rounded-circle position-relative d-inline-flex justify-content-center align-items-center  align-items-center embed-responsive embed-responsive-1by1" style="width: 15px; height: 15px; font-size: .5rem; top: -4px; background-color:#DF0873; left:-10px; ">12</div>
                 </a>
