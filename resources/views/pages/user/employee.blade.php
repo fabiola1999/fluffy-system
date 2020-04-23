@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container-dash">
-    <div class="content_head bg-light d-flex justify-content-between">
+    <div class="content_head bg-light d-flex justify-content-between pt-5">
         <div>
             <div class="d-inline-flex text-white   rounded-top pb-1 pt-2 px-3 ml-4 mt-4" style=" background-color:#012840;">
                 <div class="d-flex mr-3" >

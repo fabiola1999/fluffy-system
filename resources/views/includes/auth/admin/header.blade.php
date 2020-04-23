@@ -1,6 +1,6 @@
-<nav class="nav_dash d-flex align-items-center navbar navbar-expand-md navbar-dark  fixed-top" style="height:60px;  left:250px;  width: calc(100% - 255px); " >
+<nav class="nav_dash d-flex align-items-center navbar navbar-expand-md navbar-dark  fixed-top" style="height:60px;  left:250px;  width: calc(100% - 255px);">
     <div class="navbar-collapse " id="navbarNavDropdown">
-        <ul class="navbar-nav py-2 d-flex flex-row align-items-center">
+        <ul class="navbar-nav py-2 d-flex flex-row align-items-center w-100">
             <li class="nav-item font-weight-bold">
                 <i class="fas fa-bars m-2 ml-4" style="font-size:25px; color:#FFFFFF;"></i>
             </li>

@@ -1,4 +1,4 @@
-<aside class="min-vh-100  nav_dash h-100" style="flex: 0 0 250px; height: 1250px;">
+<aside class="nav_dash" style="flex: 0 0 250px;">
     <nav class="navbar navbar-expand-lg navbar-light  p-0">
      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="d-flex flex-column m-0 p-0 w-100">
